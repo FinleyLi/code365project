@@ -11,7 +11,7 @@ do
         tar -cpz $sqlfile | openssl enc -e -aes256 -k ndb__pwd -out $FN 
         #傳輸 
         #壓縮傳輸後移除原檔 
-        scp -P 6561 $FN dbmgr.isrcttu.net:/backup/ndb__/$db 
+        scp -P 6561 $FN db__.is__.net:/backup/ndb__/$db 
         rm -f $FN 
         echo "$db 已遠端備份至 NAS" 
 done 
