@@ -1,9 +1,13 @@
 #Step 1. Install virtualenv
 
 python -V
+
 pip list
+
 pip install --upgrade pip
+
 pip install virtualenv
+
 pip list
 
 #Step 2. Build
