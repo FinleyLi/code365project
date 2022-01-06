@@ -30,7 +30,7 @@ def synFlood():
         send(packet)
 
 if __name__ == '__main__':
-    /*add printf show input data*/
+    #add printf show input data
     print("  __ _       _                _____             _     _ \n");
     print(" / _(_)_ __ | | ___ _   _    |  ___|_ _ _ __   | |   (_)\n");
     print("| |_| |  _  | |/ _   | | |   | |_ / _  |  _  | | |   | |\n");
